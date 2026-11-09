@@ -42,7 +42,7 @@ aside {
 }
 
 aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
@@ -57,5 +57,5 @@ main img {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-decoration: center;
+    text-align: center;
 }
