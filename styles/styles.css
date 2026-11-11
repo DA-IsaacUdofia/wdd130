@@ -32,9 +32,8 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 2px solid rgb(0 0 0b / 0.2);
-    /* 1 */
-    padding: ;
+    border: 2px solid rgb(0 0 0 / 0.2);
+    padding: 1em;
     background-color: #efe;
     color: black;
     text-align: center;
