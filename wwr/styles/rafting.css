@@ -1,8 +1,6 @@
 :root {
     --primary-color: #263238;
-    /* --secondary-color: #455A64; */
     --accent-color: #D32F2F;
-    /* --background-color: #FFFFFF; */
     --heading-font: "Oswald", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
