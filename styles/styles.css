@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 body {
     font-size: 16;
 }
@@ -17,17 +24,24 @@ body {
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 10px;
+    text-decoration: none;
+    font-size: 1.2 rem;
+    font-weight: 700;
 }
 
 h1 {
     color: darkblue;
     padding: 2rem;
+    border-bottom: solid #000;
 }
 
 img {
@@ -96,4 +110,21 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
