@@ -1,7 +1,6 @@
 :root {
     --primary-color: #263238;
     --accent-color: #D32F2F;
-    --background-color: #FFFFFF;
     --secondary-color: #455A64;
 }
 
@@ -62,7 +61,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--primary-color);
-    color: antiquewhite;
+    color: white;
     margin: 0 0;
 
 }
@@ -138,9 +137,8 @@ header nav a {
     display: block;
     padding: 8px 20px;
     background-color: white;
-    color: var(--primary-color);
     text-decoration: none;
-    color: var(--accent-color);
+    color: black;
 }
 
 section {
