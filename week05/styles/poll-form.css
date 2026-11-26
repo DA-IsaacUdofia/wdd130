@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 650px;
+    justify-content: center;
+}
+
+h1 {
+    margin: 12px;
+    color: brown;
+    text-align: center;
+    font-size: 2rem;
+}
+
+form {
+    width: 550px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    margin: 12px auto;
+    padding: 20px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+fieldset {
+
+    min-width: 0;
+    display: grid;
+    gap: 16px 12px;
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+fieldset legend {
+    padding: 0 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 550;
+    color: brown;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    font-size: larger;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+
+}
+
+button {
+    justify-self: center;
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+    background-color: #228B22;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    font-size: .8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.label-wide {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.7rem 0;
+}
+
+.label-narrow {
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;
+}
+
+.form-item:has(textarea) {
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.form-item:has(textarea) label {
+    text-align: center;
+}

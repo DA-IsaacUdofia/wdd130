@@ -1,0 +1,28 @@
+table {
+    /* border-collapse: unset; */
+    border-collapse: collapse;
+
+    border: 2px solid rgb(140 140 150);
+    letter-spacing: 1px;
+}
+
+table caption {
+    color: black;
+    padding: 0 0 0 12px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: rgb(0 0 0);
+    color: white;
+    font-weight: 700;
+}
